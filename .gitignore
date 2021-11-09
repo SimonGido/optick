@@ -20,3 +20,13 @@ Publish/
 /Samples/UnrealEnginePlugin/Binaries
 /.vs
 /samples/UnrealEnginePlugin/GUI/Optick.exe
+
+*.vcxproj
+
+
+# Binaries
+**/bin/
+!vendor/premake/
+!XYZEngine/vendor/mono/bin
+bin-int/
+obj/
